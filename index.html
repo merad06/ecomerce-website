@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+</head>
+<body onload="slider()">
+<div class="container" id="HP">
+ <div class="navigationBar">
+     <div class="logo">
+         <img src="images/logo.PNG" width="100">
+     </div>
+     <nav>
+         <ul>
+             <li> <a href="#HP"> Home Page </a></li>
+             <li> <a href="#product"> Lets Discover Berber Products  </a></li>
+             <li> <a href="#who"> Who we are </a></li>
+             <li> <a href="#contact"> Contact Us </a></li>
+         </ul>
+         
+     </nav>
+     <img src="images/bascket(1).jpg" width="40px" height="30px">
+ </div>
+ <div>
+    <h2 > Home Page</h2>
+</div>
+ 
+ <div class="row" > 
+
+    <div class="col1">
+        <h1> Welcome to Amazigh Products</h1>
+        <a href="" class="search-btn">Search for Product</a>
+     </div>
+    <div class="col1">
+    
+        <img src="images/cat1.PNG" id="slideImg">
+    </div>
+    
+
+ </div>
+</div>
+<!--procucts page-->
+<div class="container2" id="product" >
+   <h2 > Our Products</h2>
+        <div class="row">
+            <div class="col3">
+                <img src="/images/categ1.PNG" >
+                <h4>Amazigh nacklace </h4>
+                <p>$70.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ2.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$30.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ3.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$35.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ4.PNG" >
+                <h4>Amazigh Sport jacket </h4>
+                <p>$40.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ5.PNG" >
+                <h4>Amazigh dress </h4>
+                <p>$45.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ6.PNG" >
+                <h4>Amazigh watch </h4>
+                <p>$65.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ7.PNG" >
+                <h4>Amazigh pillow </h4>
+                <p>$15.00</p>
+                
+            </div>
+            <div class="col3">
+                <img src="/images/categ8.PNG" >
+                <h4>Amazigh pillow </h4>
+                <p>$15.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ9.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$30.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ10.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$30.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ11.PNG" >
+                <h4>Amazigh dress </h4>
+                <p>$40.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ12.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ13.PNG" >
+                <h4>Amazigh dress </h4>
+                <p>$45.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ14.PNG" >
+                <h4>Amazigh T-shirt </h4>
+                <p>$40.00</p>
+            </div>
+            <div class="col3">
+                <img src="/images/categ15.PNG" >
+                <h4>Amazigh decoration </h4>
+                <p>$50.00</p>
+            </div>
+            
+                
+        </div>
+    
+        <img src="" alt="">
+    </div>-->
+</div>
+<!--how we are-->
+<div id="who">
+    <h2 > Who we are</h2>
+</div>
+
+<div class="row"  >
+    
+     <div class="col1">
+        <p>
+            The blue symbolizes the Mediterranean Sea & the Atlantic Ocean;<br> the Green represents nature & the green mountains;<br> the Yellow represents the 'Free Man'<br> which is the meaning of the Berber word 'Amazigh', <br>the Berbers own name for themselves. The Red is the color of life, <br> and also the color of resistance.
+        </p>
+     </div>
+     <div class="col1">
+        <img src="images/flag.PNG" id="slideImg1">
+     
+    </div>
+</div>
+<div>
+    <h2 > Contact Us</h2>
+</div>
+
+
+<div class="container" id="contact">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div> 
+
+
+
+<!--simples categories featured-->
+
+<script>
+    var slideImg = document.getElementById("slideImg")
+var images = new Array(
+    "/images/categ1.png",
+    "/images/categ2.png",
+    "/images/Categ3.png",
+    "/images/categ4.png",
+    "/images/Categ5.png",
+    "/images/categ6.png",
+    "/images/Categ7.png");
+var long = images.length
+var i = 0
+function slider(){
+    if(i> long-1){
+        i = 0
+    }
+    slideImg.src= images[i]
+    i++
+    setTimeout('slider()',2000)
+}
+</script>
+
+</body>
+</html>
